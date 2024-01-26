@@ -1,4 +1,6 @@
-## Hi there 👋
+## Distributed game organisation
+
+here to hold client server architecture
 
 <!--
 
