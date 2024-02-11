@@ -4,7 +4,7 @@
 ## Introduction
 Dans le cadre de ce projet, nous ambitionnons de concevoir et de développer un jeu en ligne inspiré du célèbre agar.io, un jeu multijoueur massif où les joueurs contrôlent des cellules dans une arène, cherchant à consommer des cellules plus petites et à éviter d'être mangés par des cellules plus grandes. L'objectif de ce projet est de créer un jeu non seulement divertissant mais aussi technique, en intégrant des défis de programmation, de réseau et de conception de jeu.
 
-La réalisation du projet se fera en deux versions principales, chacune avec des objectifs spécifiques :
+La réalisation du projet se fera en deux versions principales, chacune avec des objectifs spécifiques, et chaque étape sera rigoureusement accompagnée de tests fonctionnels et unitaires pour assurer la qualité et la fiabilité des fonctionnalités développées :
 
 ### Version 1 : Infrastructure et Connexion des Joueurs
 
@@ -91,6 +91,27 @@ Pour permettre une communication bidirectionnelle en temps réel entre le serveu
 ### Création d'une Librairie de Jeu
 
 Pour gérer la logique de jeu spécifique, comme le mouvement des joueurs, la génération des baies, et le scoring, nous développerons une librairie de jeu dédiée. Cette librairie sera conçue pour être modulaire et réutilisable, permettant une évolution facile du jeu et la possibilité d'ajouter de nouvelles fonctionnalités ou de modifier la logique de jeu existante sans impacter négativement l'architecture globale. L'intégration de cette librairie au sein du projet Spring Boot permettra une gestion efficace de la logique de jeu, en s'appuyant sur les principes de programmation orientée objet et les fonctionnalités de Spring pour une intégration transparente.
+
+
+## Contributions Personnelles
+
+Dans le cadre de ce projet, mes contributions ont été essentielles dans plusieurs domaines clés, affirmant ainsi mon engagement et mon apport significatif au succès global du projet. Voici les points sur lesquels j'ai personnellement œuvré :
+### Déploiement
+
+J'ai pris en charge le déploiement de l'application, en m'assurant que toutes les composantes du jeu soient correctement configurées et opérationnelles dans l'environnement de production. Cela a inclus la gestion des conteneurs Docker, la configuration des services, et l'assurance d'une intégration fluide entre le frontend et le backend.
+### Architecture du Backend
+
+J'ai conçu l'architecture du backend, en sélectionnant Spring Boot pour son efficacité et sa facilité d'utilisation. Mon travail a été crucial dans la mise en place d'une structure solide permettant une communication en temps réel et la gestion efficace de la logique de jeu, tout en assurant la scalabilité et la maintenabilité du système.
+### Le Load Testing
+
+Pour garantir la fiabilité et la performance du jeu sous différentes charges d'utilisation, j'ai effectué des tests de charge approfondis. Ces tests ont permis d'identifier et de corriger les goulets d'étranglement, assurant ainsi une expérience utilisateur fluide même lors de pics d'utilisation.
+### Le Décodage et Encodage des Messages
+
+J'ai développé la logique d'encodage et de décodage des messages échangés entre le client et le serveur, permettant une communication efficace et sécurisée. Cette contribution a été fondamentale pour le bon fonctionnement des Websockets et la synchronisation de l'état du jeu entre tous les joueurs.
+### Rendre Threadable les Encodeurs/Décodeurs
+
+Pour optimiser les performances et la réactivité du jeu, j'ai rendu les encodeurs et décodeurs threadables. Cette amélioration technique a significativement réduit les temps de latence dans le traitement des messages, contribuant ainsi à une meilleure expérience de jeu en temps réel.
+
 
 ## Conclusion
 
