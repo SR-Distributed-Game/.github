@@ -2,8 +2,6 @@
 
 Cette page est un rapport de projet pour le projet SR Game, un jeu multijoueur en ligne développé dans le cadre du cours de Systèmes Répartis à l'ESIR.
 
-Dans 
-
 
 ## Introduction
 Dans le but de créer un jeu en ligne, nous nous sommes inspirés d'agar.io pour développer le jeu présent dans ce projet, un jeu multijoueur en ligne ou le but est de manger le plus possible de fruits disposés sur la carte,en dirigent des cellules dans une arène. 
@@ -13,14 +11,27 @@ Notre ambition était de fournir un jeu non seulement amusant mais aussi riche e
 Pour ce projet, nous avons choisi d'utiliser des technologies modernes et performantes.
 
 ### Frontend
-Pour le développement frontend, nous avons opté pour Svelte, un framework JavaScript qui offre une expérience de développement fluide et réactive. J'étais en charge de cette partie, et j'ai également utilisé TailwindCSS pour la conception de l'interface utilisateur.
+Pour le développement frontend, nous avons opté pour Svelte, un framework JavaScript qui offre une expérience de développement fluide et réactive. J'étais en charge de cette partie, et j'ai également utilisé TailwindCSS pour la conception de l'interface utilisateur. Elle comprends un profil et garde le meileur score de chaque joueur.
+
+
 
 ### Backend
-Pour le développement backend, nous avons utilisé Spring Boot, un framework Java qui offre une grande flexibilité et une architecture solide. L'équipe backend a également intégré Websockets pour une communication en temps réel. J'ai participé à la logique de jeu et à la gestion des événements frontend-backend.
+Pour le développement backend, nous avons utilisé Spring Boot, un framework Java qui offre une grande flexibilité et une architecture solide. J'ai participé à la logique de jeu et à la gestion des événements frontend-backend.
+
+
+## Architecture
+
+Architecture du frontend :
+![Frontend Architecture](./image/Fronted.png)
+Architecture du backend : 
+![Backend Architecture](./image/Diagramme%20sans%20nom.drawio.png)
+
 
 
 ### Déploiement
 Pour le déploiement, nous avons choisi Docker, qui offre une solution simple et efficace pour l'exécution de l'application. Nous avons également mis en place un système CD/CI pour l'automatisation du build des images sur github. Depuis un docker compose il est simple de déployer l'achitecture complète.
+
+Le projet est actuellement déployé sur Une VM istic.
 
 ## Développement
 Le développement du projet s'est déroulé en deux phases, chacune apportant des améliorations significatives au jeu.
@@ -106,9 +117,9 @@ Grace à de la reflection, les variables annotées seront partagées entre le fr
 
 - [player.ts](https://github.com/SR-Distributed-Game/Frontend/blob/main/src/lib/implementedGames/player.ts)
 
--[player.java](https://github.com/SR-Distributed-Game/Backend/blob/main/src/main/java/org/esir/backend/ImplementedGame/player.java)
+- [player.java](https://github.com/SR-Distributed-Game/Backend/blob/main/src/main/java/org/esir/backend/ImplementedGame/player.java)
 
-
+## 
 
 
 ## Conclusion
