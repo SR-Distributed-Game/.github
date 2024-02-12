@@ -55,22 +55,12 @@ Afin de faciliter le déploiement et la gestion de l'environnement de développe
 
 L'architecture frontend sera conçue pour être légère, rapide et facilement adaptable, permettant une expérience utilisateur immersive et réactive. Elle se concentrera sur la facilitation de la communication en temps réel avec le backend, l'affichage efficace de l'état du jeu, et la gestion des interactions utilisateur. La structure sera modulaire, favorisant la réutilisabilité du code et une maintenance simplifiée.
 
-[mettre une image ici]()
+![Frontend](./image/Fronted.png)
 
-### Utilisation de Svelte
-
-Svelte sera utilisé comme le framework de développement principal pour le frontend. Contrairement aux autres frameworks qui ajoutent une couche d'abstraction au moment de l'exécution, Svelte compile les composants au moment de la construction en code hautement optimisé qui met à jour directement le DOM. Cela se traduit par des performances supérieures et un temps de chargement réduit, éléments clés pour une expérience de jeu en ligne fluide.
-
-### Utilisation de Websockets
-
-Afin d'assurer une communication bidirectionnelle en temps réel entre le frontend et le backend, l'architecture intégrera des Websockets. Cela permettra de synchroniser l'état du jeu entre le serveur et les clients de manière efficace, garantissant que les actions des joueurs soient immédiatement reflétées à tous les participants. L'intégration de Websockets avec Svelte facilitera la gestion des données en temps réel et l'interaction utilisateur.
-
-### Utilisation de TailwindCSS
-
-TailwindCSS sera adopté pour le stylisme de l'interface utilisateur. Ce framework CSS utilitaire permet une personnalisation rapide et réactive du design sans quitter le fichier HTML ou JavaScript. Grâce à sa nature hautement personnalisable et son système de classes utilitaires, TailwindCSS facilite la création d'une interface utilisateur attrayante et réactive, essentielle pour une expérience de jeu engageante.
-### Création d'une Librairie de Jeu
-
-Une librairie de jeu dédiée sera développée pour gérer les aspects spécifiques du jeu, tels que les rendus graphiques, les animations et les interactions utilisateur. Cette librairie travaillera en étroite collaboration avec Svelte pour optimiser les performances de rendu et assurer une expérience de jeu fluide. L'objectif est de créer une couche d'abstraction qui facilite la gestion de la logique de jeu complexe tout en restant performante et réactive.
+- Utilisation de Svelte
+- Utilisation de Websockets
+- Utilisation de TailwindCSS
+- Création d'une Librairie de Jeu
 
 ## Architecture Backend
 ### Explication de l'Architecture Backend
@@ -94,8 +84,7 @@ Pour gérer la logique de jeu spécifique, comme le mouvement des joueurs, la g�
 
 
 ## Contributions Personnelles
-
-Dans le cadre de ce projet, mes contributions ont été essentielles dans plusieurs domaines clés, affirmant ainsi mon engagement et mon apport significatif au succès global du projet. Voici les points sur lesquels j'ai personnellement œuvré :
+Voici les points sur lesquels j'ai personnellement œuvré :
 ### Déploiement
 
 J'ai pris en charge le déploiement de l'application, en m'assurant que toutes les composantes du jeu soient correctement configurées et opérationnelles dans l'environnement de production. Cela a inclus la gestion des conteneurs Docker, la configuration des services, et l'assurance d'une intégration fluide entre le frontend et le backend.
